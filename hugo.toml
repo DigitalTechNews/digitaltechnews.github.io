@@ -1,6 +1,6 @@
 baseURL = 'https://digitaltechnews.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'My New Hugo Site1'
 
 [[menus.main]]
 name = 'Home'
