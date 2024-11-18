@@ -1,7 +1,7 @@
 # -- Site Configuration --
 
 # URL to the root of your website.
-baseURL = 'https://mnjm.github.io/kayal'
+baseURL = 'https://digitaltechnews.github.io'
 
 # Site's language code
 languageCode = 'en-us'
