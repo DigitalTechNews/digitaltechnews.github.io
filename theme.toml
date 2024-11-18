@@ -7,7 +7,7 @@ description = 'Pehtheme Hugo : A minimalist Hugo theme built with TailwindCSS, f
 homepage = 'https://github.com/fauzanmy/pehtheme-hugo'
 
 # If you have a running demo of the theme
-demosite = 'https://pehtheme-hugo.netlify.app/'
+demosite = 'https://digitaltechnews.github.io/'
 
 # Taxonomy terms
 tags = ['blog', 'responsive', 'light', 'tailwindcss']
