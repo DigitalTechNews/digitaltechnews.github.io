@@ -1,14 +1,14 @@
 # -- Site Configuration --
 
 # URL to the root of your website.
-baseURL = 'https://mnjm.github.io/kayal'
+baseURL = 'https://digitaltechnews.github.io/'
 
 # Site's language code
 languageCode = 'en-us'
 
 title = "Kayal"
 
-theme = "kayal" # UNCOMMENT THIS LINE
+theme = "digitaltechnews.github.io" # UNCOMMENT THIS LINE
 
 # Number of articles per page in the listing.
 [pagination]
