@@ -1,51 +1,23 @@
-baseURL = 'https://digitaltechnews.github.io/'
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Digital Tech News'
-theme = 'pehtheme-hugo'
+title = 'My New Hugo Site'
 
-# Menggunakan pagination.pagerSize sebagai pengganti paginate
-pagination.pagerSize = 6 # Mengatur jumlah postingan per halaman
-summaryLength = 20 # Panjang ringkasan artikel
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
 
-googleAnalytics = ''  # Ganti dengan kode GA-4 Anda jika ada
-disqusShortname = ''  # Ganti dengan shortname Disqus Anda jika ada
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
 
-[params]
-description = 'Pehtheme Hugo Lite: A minimalist Hugo theme, built with TailwindCSS, for efficient performance and minimalism.'
-mainSections = 'posts'
-
-# Menggunakan Site.Params untuk penulis
-[params.author] # Ubah menjadi bagian dari params
-name = 'Anthony Arphan'
-bio = 'Debitis assumenda esse dignissimos aperiam delectus maxime tenetur repudiandae dolore'
-avatar = '/images/nasa-astronaut-unsplash.jpg'
-twitter = 'https://twitter.com/insertapps'
-
-[menu]
-[[menu.main]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
-
-[[menu.main]]
-    name = 'About'
-    pageRef = '/about'
-    weight = 15
-
-[[menu.main]]
-    name = 'Tags'
-    pageRef = '/tags'
-    weight = 20
-
-[[menu.main]]
-    name = 'Taxonomy'
-    pageRef = '/tags/space/'
-    weight = 25
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 30
 
 [module]
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
-  [module.mounts]
-    source='assets'
-    target='static'
